@@ -14,4 +14,5 @@ class Song
     @name = name
     @@all << self.name
     @name
+  end
 end
