@@ -53,8 +53,8 @@ class Song
     rows = title.split(" - ")
     rows[1] = rows[1].chomp(".mp3")
     song = self.new
-    self.name = rows[1]
-    self.artist_name = rows[0]
+    song.name = rows[1]
+    song.artist_name = rows[0]
     song
   end
 
