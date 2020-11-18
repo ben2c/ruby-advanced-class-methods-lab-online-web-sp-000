@@ -51,5 +51,5 @@ class Song
 
   def self.new_from_filename (title)
     rows = title.split(" - ")
-    
+
 end
