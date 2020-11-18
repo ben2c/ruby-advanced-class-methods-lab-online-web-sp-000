@@ -47,4 +47,6 @@ class Song
     sorted
   end
 
+  def self.new_from_filename (title)
+    rows = title.split(" - ")
 end
