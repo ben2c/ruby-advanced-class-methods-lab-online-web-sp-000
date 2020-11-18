@@ -52,7 +52,7 @@ class Song
   def self.new_from_filename (title)
     rows = title.split(" - ")
     rows[1] = rows[1].chomp(".mp3")
-    binding.pry
+    
   end
 
 end
