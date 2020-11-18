@@ -55,6 +55,7 @@ class Song
     song = self.new
     self.name = rows[0]
     self.artist_name = rows[1]
+    song
   end
 
 end
